@@ -8,7 +8,7 @@ function App() {
 
   const llamada = async () => {
 
-    const response = await fetch('http://46.101.206.241:8000/api/prueba/test');
+    const response = await fetch('http://localhost:8080/api/prueba/test');
     const json = await response.json();
     console.log(json);
 
