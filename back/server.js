@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const corsOption = {
-  origin: 'http://46.101.206.241:3000',
+  origin: 'http://localhost:8080',
 };
 app.use(cors(corsOption));
 
